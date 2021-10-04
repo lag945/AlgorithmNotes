@@ -11,6 +11,7 @@ namespace FlippingtheMatrix
     {
         static void Main(string[] args)
         {
+            //https://www.hackerrank.com/challenges/flipping-the-matrix/problem
             List<List<int>> matrix = new List<List<int>>();
             // 112 42 83 119
             // 56 125 56 49
