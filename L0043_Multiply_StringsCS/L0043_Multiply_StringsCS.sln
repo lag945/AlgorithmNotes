@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0043_Multiply_StringsCS", "L0043_Multiply_StringsCS\L0043_Multiply_StringsCS.csproj", "{167C7B3A-1E7F-40FD-8B75-B13BFD55A404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167C7B3A-1E7F-40FD-8B75-B13BFD55A404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167C7B3A-1E7F-40FD-8B75-B13BFD55A404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167C7B3A-1E7F-40FD-8B75-B13BFD55A404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167C7B3A-1E7F-40FD-8B75-B13BFD55A404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC8F059-BAD1-49B6-9558-9523D9C1BA9A}
+	EndGlobalSection
+EndGlobal
