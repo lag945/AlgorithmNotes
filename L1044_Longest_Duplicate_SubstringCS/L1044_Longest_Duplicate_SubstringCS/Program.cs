@@ -190,15 +190,15 @@ namespace L1044_Longest_Duplicate_SubstringCS
                     var ch = s[k - 1];
                     h += (ch - 'a' + 1) * a;
                     a *= 31;
-                    total++;
                 }
-
+                total++;
                 return h;
             }
 
             //https://zh.wikipedia.org/wiki/%E6%8B%89%E5%AE%BE%E6%8C%87%E7%BA%B9
             private long NextHash(long pow, long hash, char left, char right)
             {
+                total++;
                 return (hash - (left - 'a' + 1) * pow) * 31 + (right - 'a' + 1);
             }
 
