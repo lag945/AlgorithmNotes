@@ -8,3 +8,8 @@
   - 2021.10.24: 0070
   - 2021.10.31: 0086
   - 2021.11.03: 0100
+  - 2021.11.12: 0119
+
+## GIS problems
+- https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
+- https://leetcode.com/problems/interval-list-intersections/
