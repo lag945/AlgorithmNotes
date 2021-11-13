@@ -12,7 +12,9 @@
 ## Algorithm
 - Rabin-Karp algorithm: Pattern Searching/Matching
   - https://leetcode.com/problems/longest-duplicate-substring/
--   
+- Monotonic Stack
+  - https://leetcode.com/tag/monotonic-stack/
+  - https://leetcode.com/problems/daily-temperatures/
 ## GIS problems
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
