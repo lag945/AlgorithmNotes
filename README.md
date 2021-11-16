@@ -16,6 +16,8 @@
   - https://leetcode.com/tag/monotonic-stack/
   - https://leetcode.com/problems/daily-temperatures/
   - https://haogroot.com/2020/09/01/monotonic-stack-leetcode/
+## System Design
+- [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
 ## GIS problems
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
