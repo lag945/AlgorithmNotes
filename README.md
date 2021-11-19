@@ -9,6 +9,7 @@
   - 2021.10.31: 0086
   - 2021.11.03: 0100
   - 2021.11.12: 0119
+  - 2021.11.19: 0139
 ## Algorithm
 - Rabin-Karp algorithm: Pattern Searching/Matching
   - https://leetcode.com/problems/longest-duplicate-substring/
