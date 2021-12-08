@@ -163,24 +163,27 @@ namespace ConsoleApp1
         // because Remove(LinkedListNode<T>) = O(1),Remove(T)=O(N)
         public class LRUCache
         {
-            private Dictionary<int, int> m_Map = null;
+            private Dictionary<int, LinkedListNode<int>> m_KeyMap = null;
+            private Dictionary<int, int> m_KVMap = null;
             private LinkedList<int> m_List = null;
             private readonly int m_capacity;
 
             public LRUCache(int capacity)
             {
-                m_Map = new Dictionary<int, int>(capacity);
+                m_KeyMap = new Dictionary<int, LinkedListNode<int>>(capacity);
+                m_KVMap = new Dictionary<int, int>(capacity);
                 m_List = new LinkedList<int>();
                 m_capacity = capacity;
             }
 
             public int Get(int key)
             {
-                if (m_Map.ContainsKey(key))
+                if (m_KVMap.ContainsKey(key))
                 {
-                    m_List.Remove(key);//O(1)
-                    m_List.AddLast(key);//O(1)
-                    return m_Map[key];
+                    m_List.Remove(m_KeyMap[key]);//O(1)
+                    var node = m_List.AddLast(key);//O(1)
+                    m_KeyMap[key] = node;
+                    return m_KVMap[key];
                 }
                 else
                 {
@@ -190,21 +193,25 @@ namespace ConsoleApp1
 
             public void Put(int key, int value)
             {
-                if (m_Map.ContainsKey(key))
+                if (m_KVMap.ContainsKey(key))
                 {
-                    m_Map[key] = value;//O(1)
-                    m_List.Remove(key);//O(1)
-                    m_List.AddLast(key);//O(1)
+                    m_KVMap[key] = value;//O(1)
+                    m_List.Remove(m_KeyMap[key]);//O(1)
+                    var node = m_List.AddLast(key);//O(1)
+                    m_KeyMap[key] = node;
                 }
                 else
                 {
-                    if (m_List.Count == m_capacity)
+                    if (m_List.Count == m_capacity)//full, remove lru first
                     {
-                        m_Map.Remove(m_List.First());
-                        m_List.RemoveFirst();
+                        var delNode = m_List.First();
+                        m_KeyMap.Remove(delNode);
+                        m_KVMap.Remove(delNode);
+                        m_List.Remove(delNode);
                     }
-                    m_Map.Add(key, value);//O(1)
-                    m_List.AddLast(key);//O(1)
+                    var addNode = m_List.AddLast(key);//O(1)
+                    m_KeyMap[key] = addNode;
+                    m_KVMap[key] = value;
                 }
             }
         }
