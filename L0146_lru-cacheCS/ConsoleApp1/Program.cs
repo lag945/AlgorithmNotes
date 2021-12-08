@@ -158,7 +158,9 @@ namespace ConsoleApp1
             }
         }
 
-        //Status: Time Limit Exceeded  and I don't know why?
+        // Status: Time Limit Exceeded  and I don't know why?
+        // https://docs.microsoft.com/zh-tw/dotnet/api/system.collections.generic.linkedlist-1.remove?view=net-6.0
+        // because Remove(LinkedListNode<T>) = O(1),Remove(T)=O(N)
         public class LRUCache
         {
             private Dictionary<int, int> m_Map = null;
