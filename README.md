@@ -32,6 +32,10 @@
   - Count 0: (1) 32-(Count 1) (2) foreach( bool b in bitarray) if(!b) count++;
 ## System Design
 - [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)
+  - https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU
+  - https://en.wikipedia.org/wiki/Cache_replacement_policies#Time_aware_least_recently_used_(TLRU)
+  - https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-frequently_used_(LFU)
 ## GIS problems
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
