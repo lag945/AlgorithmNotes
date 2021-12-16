@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0310_minimum-height-treesCS", "L0310_minimum-height-treesCS\L0310_minimum-height-treesCS.csproj", "{67B7EFD7-5283-4011-ACA0-B8639C122EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B7EFD7-5283-4011-ACA0-B8639C122EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B7EFD7-5283-4011-ACA0-B8639C122EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B7EFD7-5283-4011-ACA0-B8639C122EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B7EFD7-5283-4011-ACA0-B8639C122EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3EA7D6D-3263-4E46-8726-7DF220FF9A3A}
+	EndGlobalSection
+EndGlobal
