@@ -15,8 +15,8 @@ namespace L0207_course_scheduleCS
             //bool r = s.CanFinish(2, new int[][] { new int[] { 1, 0 }, new int[] { 0, 1 } });
             //bool r = s.CanFinish(2, new int[][] { new int[] { 1, 0 } });
             //bool r = s.CanFinish(20, new int[][] { new int[] { 0, 10 }, new int[] { 3, 18 }, new int[] { 5, 5 } });
-
-            bool r = s.CanFinish(4, new int[][] { new int[] { 1, 0 }, new int[] { 2, 0 }, new int[] { 0, 3 }, new int[] { 2, 3 } });
+            //bool r = s.CanFinish(4, new int[][] { new int[] { 1, 0 }, new int[] { 2, 0 }, new int[] { 0, 3 }, new int[] { 2, 3 } });
+            bool r = s.CanFinish(4, new int[][] { new int[] { 1, 2 }, new int[] { 2, 0 }, new int[] { 2, 3 } });
         }
         //https://leetcode.com/problems/course-schedule/discuss/250882/C-graph-cycle-detection-summary-DFSTopological-SortUnion-Find
         public class Solution
