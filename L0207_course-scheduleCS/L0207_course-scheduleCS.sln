@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_0207_course-scheduleCS", "L_0207_course-scheduleCS\L_0207_course-scheduleCS.csproj", "{4C5B9DAC-8762-4C06-A4B6-D224141E88C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0207_course-scheduleCS", "L0207_course-scheduleCS\L0207_course-scheduleCS.csproj", "{4C5B9DAC-8762-4C06-A4B6-D224141E88C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

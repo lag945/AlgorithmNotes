@@ -7,7 +7,7 @@
     <ProjectGuid>{4C5B9DAC-8762-4C06-A4B6-D224141E88C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>L_0207_course_scheduleCS</RootNamespace>
-    <AssemblyName>L_0207_course-scheduleCS</AssemblyName>
+    <AssemblyName>L0207_course-scheduleCS</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

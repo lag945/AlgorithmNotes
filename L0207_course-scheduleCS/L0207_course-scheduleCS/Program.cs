@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L_0207_course_scheduleCS
+namespace L0207_course_scheduleCS
 {
     class Program
     {
