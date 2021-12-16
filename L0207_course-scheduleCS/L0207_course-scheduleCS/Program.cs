@@ -151,6 +151,8 @@ namespace L0207_course_scheduleCS
             }
 
             //Topological Sort my edition
+            // 3 times slow than CanFinish
+            // I guess it's because  initialize List<HashSet<int>> limit to slow.
             int CanFinishCnt3 = 0;
             public bool CanFinish3(int numCourses, int[][] prerequisites)
             {
