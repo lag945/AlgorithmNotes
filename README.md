@@ -20,6 +20,9 @@
   - https://leetcode.com/tag/monotonic-stack/
   - https://leetcode.com/problems/daily-temperatures/
   - https://haogroot.com/2020/09/01/monotonic-stack-leetcode/
+- Topological sort
+  - http://web.ntnu.edu.tw/~algo/DirectedAcyclicGraph.html
+  - https://leetcode.com/problems/course-schedule-ii/
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
