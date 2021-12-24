@@ -12,7 +12,8 @@
   - 2021.11.19: 0145
   - 2021.11.26: 0160
   - 2021.12.05: 0173
-  - 2021.12.17: 0190
+  - 2021.12.24: 0200
+  - What a season challenge journey! To be continued.
 ## Algorithm
 - Rabin-Karp algorithm: Pattern Searching/Matching
   - https://leetcode.com/problems/longest-duplicate-substring/
