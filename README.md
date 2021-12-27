@@ -44,3 +44,4 @@
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
 - https://leetcode.com/problems/merge-intervals/
+- (Quick-SELECT)[https://leetcode.com/problems/k-closest-points-to-origin/]
