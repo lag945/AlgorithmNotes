@@ -45,11 +45,52 @@ namespace L1472_design_browser_history
 
         public class BrowserHistory
         {
+            //S:O(1)
+            string[] m_WebSites = new string[5000];
+            int m_Current = 0;
+            int m_Max = 0;
+            public BrowserHistory(string homepage)
+            {
+                m_WebSites[m_Current] = homepage;
+            }
+
+            //T:O(1)
+            public void Visit(string url)
+            {
+                m_Max = ++m_Current;
+                m_WebSites[m_Current] = url;
+            }
+
+            //T:O(1)
+            public string Back(int steps)
+            {
+                m_Current -= steps;
+
+                if (m_Current < 0)
+                    m_Current = 0;
+
+                return m_WebSites[m_Current];
+            }
+
+            //T:O(1)
+            public string Forward(int steps)
+            {
+                m_Current += steps;
+
+                if (m_Current > m_Max)
+                    m_Current = m_Max;
+
+                return m_WebSites[m_Current];
+            }
+        }
+
+        public class BrowserHistory2
+        {
 
             List<string> m_WebSites = new List<string>();
             int m_Current = 0;
             int m_Max = 0;
-            public BrowserHistory(string homepage)
+            public BrowserHistory2(string homepage)
             {
                 m_WebSites.Add(homepage);
             }
@@ -91,12 +132,12 @@ namespace L1472_design_browser_history
             }
         }
 
-        public class BrowserHistory2
+        public class BrowserHistory3
         {
 
             List<string> m_WebSites = new List<string>();
             int m_Current = 0;
-            public BrowserHistory2(string homepage)
+            public BrowserHistory3(string homepage)
             {
                 m_WebSites.Add(homepage);
             }
@@ -143,11 +184,11 @@ namespace L1472_design_browser_history
             }
         }
 
-        public class BrowserHistory3
+        public class BrowserHistory4
         {
             Stack<string> m_Previous = new Stack<string>();
             Stack<string> m_Next = new Stack<string>();
-            public BrowserHistory3(string homepage)
+            public BrowserHistory4(string homepage)
             {
                 m_Previous.Push(homepage);
             }
