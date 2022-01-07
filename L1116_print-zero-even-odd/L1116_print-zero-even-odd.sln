@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1116_print-zero-even-odd", "L1116_print-zero-even-odd\L1116_print-zero-even-odd.csproj", "{51CCDD04-76CD-4B8F-9330-B87BA5AA8942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51CCDD04-76CD-4B8F-9330-B87BA5AA8942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CCDD04-76CD-4B8F-9330-B87BA5AA8942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CCDD04-76CD-4B8F-9330-B87BA5AA8942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CCDD04-76CD-4B8F-9330-B87BA5AA8942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {506F5BBC-51E9-4DC2-BFFB-6E8A24AA925E}
+	EndGlobalSection
+EndGlobal
