@@ -33,8 +33,22 @@
   - https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU
   - https://en.wikipedia.org/wiki/Cache_replacement_policies#Time_aware_least_recently_used_(TLRU)
   - https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-frequently_used_(LFU)
+- [Browser History](https://leetcode.com/problems/design-browser-history/)
+  -   https://medium.com/@lag945/%E7%B3%BB%E7%B5%B1%E8%A8%AD%E8%A8%88-%E7%80%8F%E8%A6%BD%E5%99%A8%E6%AD%B7%E5%8F%B2-1aa024408535
 ## GIS problems
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
 - https://leetcode.com/problems/merge-intervals/
 - (Quick-SELECT)[https://leetcode.com/problems/k-closest-points-to-origin/]
+## Concurrency
+- Mutex
+  - https://leetcode.com/problems/print-in-order/
+- Thread synchronization I
+  - https://leetcode.com/problems/fizz-buzz-multithreaded/
+  - https://leetcode.com/problems/print-zero-even-odd/
+- Thread synchronization II - sequence
+  - https://leetcode.com/problems/print-foobar-alternately/
+  - https://leetcode.com/problems/building-h2o/
+- Deadlock - Dining philosophers problem
+  - https://leetcode.com/problems/the-dining-philosophers/
+
