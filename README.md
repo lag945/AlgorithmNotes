@@ -39,6 +39,7 @@
 - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
 - https://leetcode.com/problems/interval-list-intersections/
 - https://leetcode.com/problems/merge-intervals/
+- https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 - (Quick-SELECT)[https://leetcode.com/problems/k-closest-points-to-origin/]
 ## Concurrency
 - Mutex
