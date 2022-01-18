@@ -52,4 +52,6 @@
   - https://leetcode.com/problems/building-h2o/
 - Deadlock - Dining philosophers problem
   - https://leetcode.com/problems/the-dining-philosophers/
-
+## Others
+- Attentiveness test(Hard to pass once)
+  - https://leetcode.com/problems/word-pattern/
