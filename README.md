@@ -17,6 +17,9 @@
 - Topological sort
   - http://web.ntnu.edu.tw/~algo/DirectedAcyclicGraph.html
   - https://leetcode.com/problems/course-schedule-ii/
+- Spell checker(trie/prefix tree)
+  - https://leetcode.com/problems/implement-trie-prefix-tree/solution/
+  - https://leetcode.com/problems/design-add-and-search-words-data-structure/
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
