@@ -44,6 +44,7 @@
 - https://leetcode.com/problems/merge-intervals/
 - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 - (Quick-SELECT)[https://leetcode.com/problems/k-closest-points-to-origin/]
+- (Sort)[https://leetcode.com/problems/remove-covered-intervals/]
 ## Concurrency
 - Mutex
   - https://leetcode.com/problems/print-in-order/
