@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1081_smallest-subsequence-of-distinct-charactersCS", "L1081_smallest-subsequence-of-distinct-charactersCS\L1081_smallest-subsequence-of-distinct-charactersCS.csproj", "{A61C0D90-9E45-4DE6-87A4-428989F36DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61C0D90-9E45-4DE6-87A4-428989F36DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61C0D90-9E45-4DE6-87A4-428989F36DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61C0D90-9E45-4DE6-87A4-428989F36DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61C0D90-9E45-4DE6-87A4-428989F36DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D409F233-3907-4B56-88ED-30E494ABE4FA}
+	EndGlobalSection
+EndGlobal
