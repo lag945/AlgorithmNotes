@@ -32,13 +32,24 @@ public:
         this->k = k;
         for (int n : nums)
         {
+			if ((int)pq.size() == k)
+            {
+                if(n<pq.top())
+                    continue;
+            }			
             pq.push(n);
             if ((int)pq.size() > k)
                 pq.pop();
         }
     }
 
+	//T:O(n)
     int add(int val) {
+        if ((int)pq.size() == k)
+        {
+            if(val<pq.top())
+                return pq.top();
+        }               			
         pq.push(val);
         if ((int)pq.size() > k)
             pq.pop();
