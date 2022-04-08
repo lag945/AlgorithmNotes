@@ -22,6 +22,7 @@
   - https://leetcode.com/problems/design-add-and-search-words-data-structure/
 - Priority queue(time complexity = sort = nlog(n))
   - https://leetcode.com/problems/last-stone-weight/
+  - https://leetcode.com/problems/kth-largest-element-in-a-stream/
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
