@@ -20,6 +20,8 @@
 - Spell checker(trie/prefix tree)
   - https://leetcode.com/problems/implement-trie-prefix-tree/solution/
   - https://leetcode.com/problems/design-add-and-search-words-data-structure/
+- Priority queue(time complexity = sort = nlog(n))
+  - https://leetcode.com/problems/last-stone-weight/
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
