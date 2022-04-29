@@ -7,6 +7,7 @@
   - 2021.12.05: 0173
   - 2021.12.24: 0200
   - What a season challenge journey! To be continued.
+  - 2022.04.28: 0300
 ## Algorithm
 - Rabin-Karp algorithm: Pattern Searching/Matching
   - https://leetcode.com/problems/longest-duplicate-substring/
@@ -48,6 +49,8 @@
 - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 - (Quick-SELECT)[https://leetcode.com/problems/k-closest-points-to-origin/]
 - (Sort)[https://leetcode.com/problems/remove-covered-intervals/]
+- Best Path
+	- https://leetcode.com/problems/path-with-minimum-effort/
 ## Concurrency
 - Mutex
   - https://leetcode.com/problems/print-in-order/
