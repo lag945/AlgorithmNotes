@@ -51,6 +51,7 @@
 - (Sort)[https://leetcode.com/problems/remove-covered-intervals/]
 - Best Path
 	- https://leetcode.com/problems/path-with-minimum-effort/
+	- https://leetcode.com/problems/path-with-minimum-effort/
 ## Concurrency
 - Mutex
   - https://leetcode.com/problems/print-in-order/
