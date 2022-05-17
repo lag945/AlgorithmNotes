@@ -8,9 +8,10 @@ namespace L0743_network_delay_timeCS
 {
     class Program
     {
+        //https://leetcode.com/problems/network-delay-time/
         static void Main(string[] args)
         {
-            Solution3 s = new Solution3();
+            Solution4 s = new Solution4();
             int[][] times = new int[3][];
             times[0] = new int[] { 2, 1, 1 };
             times[1] = new int[] { 2, 3, 1 };
@@ -206,7 +207,7 @@ namespace L0743_network_delay_timeCS
                     foreach (int[] edge in adj[currNode])
                     {
                         int time = edge[0];
-                        int neighborNode = edge[01];
+                        int neighborNode = edge[1];
 
                         // Fastest signal time for neighborNode so far
                         // signalReceivedAt[currNode] + time : 
@@ -216,6 +217,88 @@ namespace L0743_network_delay_timeCS
                         {
                             signalReceivedAt[neighborNode] = arrivalTime;
                             q.Enqueue(neighborNode);
+                        }
+                    }
+                }
+
+            }
+        }
+
+        //Dijkstra's Algorithm
+        public class Solution4
+        {
+            // Adjacency list
+            Dictionary<int, List<int[]>> adj = new Dictionary<int, List<int[]>>();
+
+            public int NetworkDelayTime(int[][] times, int n, int k)
+            {
+                // Build the adjacency list
+                foreach (int[] time in times)
+                {
+                    int source = time[0];
+                    int dest = time[1];
+                    int travelTime = time[2];
+
+                    if (!adj.ContainsKey(source))
+                        adj[source] = new List<int[]>();
+                    adj[source].Add(new int[] { travelTime, dest });
+                }
+
+                int[] signalReceivedAt = new int[n + 1];
+                for (int i = 0; i < signalReceivedAt.Length; i++)
+                    signalReceivedAt[i] = Int32.MaxValue;
+
+                Dijkstra(signalReceivedAt, k, n);
+
+                int answer = Int32.MinValue;
+                for (int node = 1; node <= n; node++)
+                {
+                    answer = Math.Max(answer, signalReceivedAt[node]);
+                }
+
+                // Integer.MAX_VALUE signifies atleat one node is unreachable
+                return answer == Int32.MaxValue ? -1 : answer;
+            }
+
+            private void Dijkstra(int[] signalReceivedAt, int source, int n)
+            {
+                SortedDictionary<int, Queue<int>> pq = new SortedDictionary<int, Queue<int>>();
+                pq.Add(0, new Queue<int>());
+                pq[0].Enqueue(source);
+
+                // Time for starting node is 0
+                signalReceivedAt[source] = 0;
+
+                while (pq.Count > 0)
+                {
+                    int currNodeTime = pq.Keys.First();
+                    int currNode = pq[currNodeTime].Dequeue();
+                    if (pq[currNodeTime].Count == 0)
+                        pq.Remove(currNodeTime);
+
+                    if (currNodeTime > signalReceivedAt[currNode])
+                        continue;
+
+                    if (!adj.ContainsKey(currNode))
+                        continue;
+                    
+
+                    // Broadcast the signal to adjacent nodes
+                    foreach (int[] edge in adj[currNode])
+                    {
+                        int time = edge[0];
+                        int neighborNode = edge[1];
+
+                        // Fastest signal time for neighborNode so far
+                        // signalReceivedAt[currNode] + time : 
+                        // time when signal reaches neighborNode
+                        int arrivalTime = signalReceivedAt[currNode] + time;
+                        if (signalReceivedAt[neighborNode] > arrivalTime)
+                        {
+                            signalReceivedAt[neighborNode] = arrivalTime;
+                            if (!pq.ContainsKey(signalReceivedAt[neighborNode]))
+                                pq[signalReceivedAt[neighborNode]] = new Queue<int>();
+                            pq[signalReceivedAt[neighborNode]].Enqueue(neighborNode);
                         }
                     }
                 }
