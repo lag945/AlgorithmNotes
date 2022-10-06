@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L0658_find-k-closest-elementsCS", "L0001_find-k-closest-elementsCS\L0658_find-k-closest-elementsCS.csproj", "{BD4D6C76-5AB8-46E4-B990-512DEB8AD0D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4D6C76-5AB8-46E4-B990-512DEB8AD0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4D6C76-5AB8-46E4-B990-512DEB8AD0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4D6C76-5AB8-46E4-B990-512DEB8AD0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4D6C76-5AB8-46E4-B990-512DEB8AD0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F36FAA44-4A67-4781-94DA-F874B5B43942}
+	EndGlobalSection
+EndGlobal

@@ -34,6 +34,10 @@
 - Count
   - Count 1: (1) while(n>0){n = n&(n-1);count++;} (2) for(int i=0;i<32;i++){ n&1==1?count++:; n = n >>1; } (3) foreach( bool b in bitarray) if(b) count++;
   - Count 0: (1) 32-(Count 1) (2) foreach( bool b in bitarray) if(!b) count++;
+## Linked List
+- Reverse singly linked list (T=O(n),S=O(1))
+	- https://leetcode.com/problems/reverse-linked-list/
+	- https://leetcode.com/problems/palindrome-linked-list/
 ## System Design
 - [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
 - [LRU Cache](https://leetcode.com/problems/lru-cache/)
