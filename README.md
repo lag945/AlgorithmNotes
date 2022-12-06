@@ -8,6 +8,7 @@
   - 2021.12.24: 0200
   - What a season challenge journey! To be continued.
   - 2022.04.28: 0300
+  - 2022.11.28: 0400
 ## Algorithm
 - Rabin-Karp algorithm: Pattern Searching/Matching
   - https://leetcode.com/problems/longest-duplicate-substring/
@@ -24,6 +25,9 @@
 - Priority queue(time complexity = sort = nlog(n))
   - https://leetcode.com/problems/last-stone-weight/
   - https://leetcode.com/problems/kth-largest-element-in-a-stream/
+- Binary tree Traversal，preodrer=first node is root，inorder=split left right by root,postorder=last node is root
+  - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+  - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
