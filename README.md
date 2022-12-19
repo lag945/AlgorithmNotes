@@ -1,4 +1,4 @@
-# CodeForFun
+# AlgorithmNotes
 ## LeetCode 
 - https://leetcode.com/lag945/
 - Problems Solved
