@@ -28,6 +28,9 @@
 - Binary tree Traversal，preodrer=first node is root，inorder=split left right by root,postorder=last node is root
   - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
   - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
+- Graph - Union Find
+  - https://leetcode.com/problems/find-if-path-exists-in-graph/solutions/2715942/find-if-path-exists-in-graph/
+    - https://leetcode.com/explore/learn/card/graph/618/disjoint-set/3881/
 ## Bit Manipulation
 - C# use BitArray class
   - BitArray ba = new BitArray(BitConverter.GetBytes(int32));
